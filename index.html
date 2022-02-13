@@ -1,0 +1,386 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Abhishek Upmanyu Resume">
+    <meta name="tags" content="HTML, CSS, JavaScript, Frontend Developer, Programmer, Online Portfolio">
+    <meta name="author" content="Abhishek Upmanyu">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Abhishek Upmanyu</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="self-picture-container">
+            <img id="self-picture" src="assets/my-picture.jpg">
+        </div>
+        <p id="name">Abhishek Upmanyu</p>
+        <div id="contact-row">
+            <a href="https://github.com/abhishekUpmanyu" target="blank"><img class="contact-icon" src="assets/github.png"></a>
+            <a href="https://www.linkedin.com/in/AbhishekUpmanyu" target="blank"><img class="contact-icon" src="assets/linkedin.png"></a>
+            <a href="mailto:upmanyu.abhishek@yahoo.in" target="blank"><img class="contact-icon" src="assets/email.png"></a>
+            <a href="tel:+917000842287" target="blank"><img class="contact-icon" src="assets/phone.png"></a>
+        </div>
+        <br><br>
+    </div>
+    <div id="responsive-columns">
+        <div>
+            <div class="section-box" onclick="sectionClickHandler('skills-section-content');setSkillMeters();">
+                <p class="section-title">Skills</p>
+                <div class="section-content" id="skills-section-content">
+                    <table width="90%">
+                        <tr>
+                            <th>
+                                LANGUAGES
+                            </th>
+                        </tr>
+                        <tr>
+                            <td width="30%">
+                                C++
+                            </td>
+                            <td width="70%">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="cpp-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Python
+                            </td>
+                            <td>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="python-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Dart
+                            </td>
+                            <td>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="dart-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                JavaScript
+                            </td>
+                            <td>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="javascript-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table width="90%">
+                        <tr>
+                            <th>
+                                FRAMEWORKS
+                            </th>
+                        </tr>
+                        <tr>
+                            <td width="30%">
+                                Flutter
+                            </td>
+                            <td width="70%">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="flutter-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                React
+                            </td>
+                            <td>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="react-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Angular
+                            </td>
+                            <td>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="angular-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <table width="90%">
+                        <tr>
+                            <th>
+                                TOOLS AND TECHNOLOGIES
+                            </th>
+                        </tr>
+                        <tr>
+                            <td width="30%">
+                                Pandas & NumPy
+                            </td>
+                            <td width="70%">
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="pandas-numpy-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Matplotlib
+                            </td>
+                            <td>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="matplotlib-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Scikit-Learn
+                            </td>
+                            <td>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="scikit-learn-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Firebase
+                            </td>
+                            <td>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="firebase-progress">
+                                        <div class="progress-knob"></div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="section-box" onclick="sectionClickHandler('experience-section-content');">
+                <p class="section-title">Experience</p>
+                <div class="section-content" id="experience-section-content">
+                    <div class="timeline-grid">
+                        <div class="timeline-time">
+                            Jan 2022 -<br>Present
+                        </div>
+                        <div class="timeline-vertical-line-start">
+                            <div class="timeline-event-dot"></div>
+                        </div>
+                        <div class="elevated-section">
+                            <p class="section-subtitle">Associate SE Intern</p>
+                            <p class="section-subsubtitle">at Tekion Corp.</p>
+                            <ul style="list-style-type:circle;">
+                                <li>Learning web and mobile development</li>
+                                <li>Working with React</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-time">
+                            May 2021 -<br>Jul 2021
+                        </div>
+                        <div class="timeline-vertical-line-end">
+                            <div class="timeline-event-dot"></div>
+                        </div>
+                        <div>
+                            <div class="elevated-section">
+                                <p class="section-subtitle">Intern - Technology</p>
+                                <p class="section-subsubtitle">at GEP</p>
+                                <ul style="list-style-type:circle;">
+                                    <li>Assisted in the development of a B2B software solution that enables a particular
+                                        type of procurement order to be placed</li>
+                                    <li>Worked with Angular and ASP.NET</li>
+                                    <li>Won the internal hackathon organised for summer interns</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-vertical-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-box" onclick="sectionClickHandler('hobbies-section-content');">
+                <p class="section-title">Hobbies</p>
+                <div class="section-content" style="margin: 32px;" id="hobbies-section-content">
+                    <p class="section-subtitle">MOBILE APPS</p>
+                    <div class="button-row" onclick="">
+                        <a href="https://devfolio.co/submissions/raahi-1" target="blank">
+                            <div class="elevated-section">Raahi</div>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=abhishekupmanyu.asciiemojis" target="blank">
+                            <div class="elevated-section">ASCII Emoji App</div>
+                        </a>
+                        <a href="https://github.com/abhishekUpmanyu/covidata_india" target="blank">
+                            <div class="elevated-section">CoviData</div>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=abhishekupmanyu.wyr" target="blank">
+                            <div class="elevated-section">WYR</div>
+                        </a>
+                    </div>
+                    <hr>
+                    <p class="section-subtitle">QUIZZING</p>
+                    <ul style="list-style-type:circle;">
+                        <li>Second runner up in Quiz-O-Cruise intra-college team quiz event, in 2019</li>
+                        <li>Participated in Derek O'Brien's Faster Smarter Better Challenge 2014</li>
+                    </ul>
+                    <hr>
+                    <p class="section-subtitle">GAMING</p>
+                    <ul style="list-style-type:circle;">
+                        <li>Second runner up in Quiz-O-Cruise intra-college team quiz event, in 2019</li>
+                        <li>Participated in Derek O'Brien's Faster Smarter Better Challenge 2014</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="section-box" onclick="sectionClickHandler('education-section-content');">
+                <p class="section-title">Education</p>
+                <div class="section-content" id="education-section-content">
+                    <div class="timeline-grid">
+                        <div class="timeline-time">
+                            2018 - 22
+                        </div>
+                        <div class="timeline-vertical-line-start">
+                            <div class="timeline-event-dot"></div>
+                        </div>
+                        <div class="elevated-section">
+                            <p class="section-subtitle">Bachelor of Technology (CSE)</p>
+                            <p class="section-subsubtitle">Indian Institute of Information Technology, Bhopal</p>
+                            CGPA: 9.37
+                        </div>
+                        <div class="timeline-time">
+                            2016 - 18
+                        </div>
+                        <div class="timeline-vertical-line">
+                            <div class="timeline-event-dot"></div>
+                        </div>
+                        <div class="elevated-section">
+                            <p class="section-subtitle">Higher Secondary School (CBSE)</p>
+                            <p class="section-subsubtitle">International Public School, Bhopal</p>
+                            Score: 83.8%
+                        </div>
+                        <div class="timeline-time">
+                            2014 - 16
+                        </div>
+                        <div class="timeline-vertical-line-end">
+                            <div class="timeline-event-dot"></div>
+                        </div>
+                        <div class="elevated-section">
+                            <p class="section-subtitle">Senior Secondary School (CBSE)</p>
+                            <p class="section-subsubtitle">International Public School, Bhopal</p>
+                            CGPA: 10
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-box" onclick="sectionClickHandler('projects-section-content');">
+                <p class="section-title">Projects</p>
+                <div class="section-content" id="projects-section-content">
+                    <div class="timeline-grid">
+                        <div class="timeline-time">
+                            Aug 2021 -<br>Ongoing
+                        </div>
+                        <div class="timeline-vertical-line-start">
+                            <div class="timeline-event-dot"></div>
+                        </div>
+                        <div class="elevated-section">
+                            <p class="section-subtitle">Document Scanner App</p>
+                            <p class="section-subsubtitle">Android</p>
+                            <ul style="list-style-type:circle;">
+                                <li>Working in a team of 2 to develop a document scanner app using Flutter</li>
+                                <li>Development would involve working with OpenCV to detect edges and ML model to find
+                                    the document from detected edges</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-time">
+                            Jan 2021 -<br>May 2021
+                        </div>
+                        <div class="timeline-vertical-line">
+                            <div class="timeline-event-dot"></div>
+                        </div>
+                        <div class="elevated-section">
+                            <p class="section-subtitle">IIIT Bhopal Portal</p>
+                            <p class="section-subsubtitle">Android, Web</p>
+                            <ul style="list-style-type:circle;">
+                                <li>Worked in a team of 4 to develop a portal for IIIT Bhopal</li>
+                                <li>The portal includes in app with a single OTP based sign in for both, faculties and
+                                    students</li>
+                                <li>The portal enables dynamic lecture scheduling, notice pinning, exam results
+                                    distribution, chat, access to e-books and publishing articles which are displayed in
+                                    a newsfeed</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-time">
+                            Aug 2020 -<br>Apr 2021
+                        </div>
+                        <div class="timeline-vertical-line-end">
+                            <div class="timeline-event-dot"></div>
+                        </div>
+                        <div class="elevated-section">
+                            <p class="section-subtitle">Circles: File Sharing App</p>
+                            <p class="section-subsubtitle">Android</p>
+                            <ul style="list-style-type:circle;">
+                                <li>Worked in a team of 2 to develop an offline file sharing android app</li>
+                                <li>Circles uses Nearby Connections API for connection and file transfer, and is built
+                                    on Flutter</li>
+                                <li>Development involved complex state management as the app supports transfer among
+                                    group of devices</li>
+                                <li>Circles in available on <a href="https://play.google.com/store/apps/details?id=cheeseball.projectcircles" target="blank">PlayStore</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-box" onclick="sectionClickHandler('achievements-section-content');">
+                <p class="section-title">Achievements</p>
+                <div class="section-content" id="achievements-section-content">
+                    <ul style="list-style-type:circle;">
+                        <li>Awarded 2nd position in central India zonal round of CoDecode, Techfest 2019-20, IIT Bombay
+                        </li>
+                        <li>Among top 3 students, felicitated by MHRD for designing logo of IIIT Bhopal</li>
+                        <li>Awarded 1st position in brand design event under Internschool Technology Symposium of Delhi
+                            Public School, Bhopal, in 2015</li>
+                        <li>Awarded 1st position in Bhopal in Dr. Eugene D'Souza Memorial Internschool GK Contest,
+                            organized by St. Joseph's Co-ed School, in 2011</li>
+                        <li>Awarded 3rd position in Madhya Pradesh state in International Science Olympiad, 2009,
+                            conducted by Silverzone</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

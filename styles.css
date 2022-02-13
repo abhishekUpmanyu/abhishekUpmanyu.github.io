@@ -1,0 +1,237 @@
+body {
+    background-color: #f6f6e8;
+    margin-left: 128px;
+    margin-right: 128px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+th {
+    font-family: "Poppins", sans-serif;
+    color: #b3b392;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #494938;
+}
+
+hr {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 64px;
+    margin-right: 64px;
+    border: none;
+    border-radius: 1px;
+    height: 2px;
+    background-color: #b3b392;
+}
+ 
+#responsive-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#self-picture-container {
+    background-size: contain;
+    padding: 16px;
+    height: 256px;
+    width: 256px;
+    border-radius: 144px;
+    box-shadow: 20px 20px 50px #cecec0, 
+            -30px -30px 60px #ffffff;
+}
+
+#self-picture {
+    border-radius: 128px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#name {
+    font-family: 'Monoton', cursive;
+    font-size: 48px;
+    color: #3d4232;
+}
+
+#contact-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-icon {
+    height: 32px;
+    width: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    filter: invert(25%) sepia(26%) saturate(390%) hue-rotate(22deg) brightness(92%) contrast(86%);;
+}
+
+.section-box {
+    background-color: #f6f6e8;
+    border-radius: 24px;
+    padding: 2px;
+    margin: 24px;
+    box-shadow: 16px 16px 50px #cecec0, 
+            -16px -16px 50px #ffffff;
+}
+
+.section-title {
+    font-family: "BioRhyme", serif;
+    font-size: 22px;
+    text-align: center;
+    color: #494938;
+}
+
+.section-subtitle {
+    font-family: "Poppins", sans-serif;
+    color: #b3b392;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.section-subsubtitle {
+    font-family: "Poppins", sans-serif;
+    color: #8f8f6a;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.section-content {
+    display: none;
+}
+
+.timeline-grid {
+    display: grid;
+    grid-template-columns: 5fr 1fr 28fr;
+    margin-bottom: 32px;
+}
+
+.timeline-time {
+    text-align: right;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px;
+}
+
+.timeline-vertical-line-start {
+    float: left;
+    background-color: #b3b392;
+    height: 100%;
+    width: 24px;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: 2px 2px 12px #8d8d74 inset, 
+            -3px -3px 12px #d3d3b4 inset;
+}
+
+.timeline-vertical-line {
+    float: left;
+    background-color: #b3b392;
+    height: 100%;
+    width: 24px;
+    box-shadow: 2px 2px 12px #8d8d74 inset, 
+            -3px -3px 12px #d3d3b4 inset;
+}
+
+.timeline-vertical-line-end {
+    float: left;
+    background-color: #b3b392;
+    height: 100%;
+    width: 24px;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: 2px 2px 12px #8d8d74 inset, 
+            -3px -3px 12px #d3d3b4 inset;
+}
+
+.timeline-event-dot {
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    background-color: #f6f6e8;
+    box-shadow: 2px 2px 4px #8d8d74;
+}
+
+.elevated-section {
+    background-color: #f6f6e8;
+    border-radius: 24px;
+    padding: 16px;
+    margin: 24px;
+    box-shadow: 12px 12px 20px #cecec0, 
+            -8px -8px 15px #ffffff;
+}
+
+.progress-bar-container {
+    height: 24px;
+    width: 80%;
+    min-width: 128px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 12px #cecec0 inset, 
+            -3px -3px 12px #ffffff inset;
+}
+
+.progress-knob {
+    float: right;
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    background-color: #f6f6e8;
+    box-shadow: 2px 2px 4px #8d8d74;
+}
+
+.progress-bar {
+    height: 24px;
+    width: 24px;
+    background-color: #b3b392;
+    border-radius: 12px;
+    min-width: 24px;
+    width: 0%;
+    box-shadow: 2px 2px 12px #8d8d74 inset, 
+            -3px -3px 12px #d3d3b4 inset;
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 1000px) {
+    #responsive-columns {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
