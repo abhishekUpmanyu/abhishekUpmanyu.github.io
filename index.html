@@ -1,10 +1,13 @@
+<!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Abhishek Upmanyu Resume">
     <meta name="tags" content="HTML, CSS, JavaScript, Frontend Developer, Programmer, Online Portfolio">
     <meta name="author" content="Abhishek Upmanyu">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
@@ -30,8 +33,8 @@
     </div>
     <div id="responsive-columns">
         <div>
-            <div class="section-box" onclick="sectionClickHandler('skills-section-content');setSkillMeters();">
-                <p class="section-title">Skills</p>
+            <div class="section-box">
+                <p class="section-title" onclick="sectionClickHandler('skills-section-content');setSkillMeters();">Skills</p>
                 <div class="section-content" id="skills-section-content">
                     <table width="90%">
                         <tr>
@@ -190,8 +193,8 @@
                     </table>
                 </div>
             </div>
-            <div class="section-box" onclick="sectionClickHandler('experience-section-content');">
-                <p class="section-title">Experience</p>
+            <div class="section-box">
+                <p class="section-title" onclick="sectionClickHandler('experience-section-content');">Experience</p>
                 <div class="section-content" id="experience-section-content">
                     <div class="timeline-grid">
                         <div class="timeline-time">
@@ -230,8 +233,8 @@
                     </div>
                 </div>
             </div>
-            <div class="section-box" onclick="sectionClickHandler('hobbies-section-content');">
-                <p class="section-title">Hobbies</p>
+            <div class="section-box">
+                <p class="section-title" onclick="sectionClickHandler('hobbies-section-content');">Hobbies</p>
                 <div class="section-content" style="margin: 32px;" id="hobbies-section-content">
                     <p class="section-subtitle">MOBILE APPS</p>
                     <div class="button-row" onclick="">
@@ -264,8 +267,8 @@
             </div>
         </div>
         <div>
-            <div class="section-box" onclick="sectionClickHandler('education-section-content');">
-                <p class="section-title">Education</p>
+            <div class="section-box">
+                <p class="section-title" onclick="sectionClickHandler('education-section-content');">Education</p>
                 <div class="section-content" id="education-section-content">
                     <div class="timeline-grid">
                         <div class="timeline-time">
@@ -304,8 +307,8 @@
                     </div>
                 </div>
             </div>
-            <div class="section-box" onclick="sectionClickHandler('projects-section-content');">
-                <p class="section-title">Projects</p>
+            <div class="section-box">
+                <p class="section-title" onclick="sectionClickHandler('projects-section-content');">Projects</p>
                 <div class="section-content" id="projects-section-content">
                     <div class="timeline-grid">
                         <div class="timeline-time">
@@ -362,10 +365,10 @@
                     </div>
                 </div>
             </div>
-            <div class="section-box" onclick="sectionClickHandler('achievements-section-content');">
-                <p class="section-title">Achievements</p>
+            <div class="section-box">
+                <p class="section-title" onclick="sectionClickHandler('achievements-section-content');">Achievements</p>
                 <div class="section-content" id="achievements-section-content">
-                    <ul style="list-style-type:circle;">
+                    <ul style="list-style-type:circle; padding-inline-end: 40px;">
                         <li>Awarded 2nd position in central India zonal round of CoDecode, Techfest 2019-20, IIT Bombay
                         </li>
                         <li>Among top 3 students, felicitated by MHRD for designing logo of IIIT Bhopal</li>
